@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {useNavigate} from "react-router-dom";
 
+
 export default function About() {
 
   const navigate = useNavigate();
@@ -80,6 +81,7 @@ export default function About() {
     }else{
       window.alert("Resume Submit Successfully!");
     }
+    navigate("/resume");
   }
 
   return (

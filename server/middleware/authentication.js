@@ -19,7 +19,6 @@ const Authenticate = async(req,res,next)=>{
             console.log(err);
         }
 
-
 }
 
 module.exports = Authenticate;
